@@ -1,0 +1,16 @@
+{
+    "name": "mekas/package-user-agent-service-test",
+    "description": "short",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mekas\\UserAgent\\Service\\Test\\": "./src"
+        }
+    },
+    "require": {
+        "donatj/phpuseragentparser": "^1.7",
+        "mekas/package-user-agent-int-test": "dev-master"
+    }
+}
