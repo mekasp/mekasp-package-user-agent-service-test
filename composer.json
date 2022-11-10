@@ -11,6 +11,6 @@
     },
     "require": {
         "donatj/phpuseragentparser": "^1.7",
-        "mekas/package-user-agent-int-test": "dev-master"
+        "mekas/package-user-agent-int-test": "^1.0.0"
     }
 }

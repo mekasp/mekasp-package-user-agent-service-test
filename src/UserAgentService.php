@@ -7,7 +7,8 @@ use Mekas\UserAgent\Int\Test\UserAgentInterface;
 
 /**
  * Class UserAgentService
- * @package Mekas\UserAgent\Service\Test v1.0.0
+ *
+ * @package Mekas\UserAgent\Service\Test v1.0.1
  */
 
 class UserAgentService implements UserAgentInterface

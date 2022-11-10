@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66a43e89ac254e05173aadf23cbed19c",
+    "content-hash": "1b897f3938139879c529f60657efa26e",
     "packages": [
         {
             "name": "donatj/phpuseragentparser",
@@ -77,19 +77,18 @@
         },
         {
             "name": "mekas/package-user-agent-int-test",
-            "version": "dev-master",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mekasp/package-user-agent-int-test.git",
-                "reference": "872797e2ce120c7fea5f2425cc31b19b57f1230c"
+                "reference": "70b121d3c5f7661645653ab5152c14d2daf3999d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mekasp/package-user-agent-int-test/zipball/872797e2ce120c7fea5f2425cc31b19b57f1230c",
-                "reference": "872797e2ce120c7fea5f2425cc31b19b57f1230c",
+                "url": "https://api.github.com/repos/mekasp/package-user-agent-int-test/zipball/70b121d3c5f7661645653ab5152c14d2daf3999d",
+                "reference": "70b121d3c5f7661645653ab5152c14d2daf3999d",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -103,17 +102,15 @@
             "description": "short",
             "support": {
                 "issues": "https://github.com/mekasp/package-user-agent-int-test/issues",
-                "source": "https://github.com/mekasp/package-user-agent-int-test/tree/master"
+                "source": "https://github.com/mekasp/package-user-agent-int-test/tree/v1.0.1"
             },
-            "time": "2022-11-10T18:27:04+00:00"
+            "time": "2022-11-10T19:27:49+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "mekas/package-user-agent-int-test": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
