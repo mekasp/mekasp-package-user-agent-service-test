@@ -5,6 +5,11 @@ namespace Mekas\UserAgent\Service\Test;
 use donatj\UserAgent\UserAgentParser;
 use Mekas\UserAgent\Int\Test\UserAgentInterface;
 
+/**
+ * Class UserAgentService
+ * @package Mekas\UserAgent\Service\Test v1.0.0
+ */
+
 class UserAgentService implements UserAgentInterface
 {
     protected $_data;
