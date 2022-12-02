@@ -14,25 +14,26 @@ use Mekas\UserAgent\Int\Test\UserAgentInterface;
 class UserAgentService implements UserAgentInterface
 {
     protected $_data;
+    protected $userAgent;
 
     public function __construct()
     {
         $this->_data = new UserAgentParser();
     }
 
-    public function parse()
+    public function parse($userAgent)
     {
-        return $this->_data->parse();
+        $this->userAgent = $this->_data->parse($userAgent);
     }
 
     public function getBrowser(): ?string
     {
-        return $this->_data->browser() ?? null;
+        return $this->userAgent->browser() ?? null;
     }
 
     public function getSystem(): ?string
     {
-        return $this->_data->platform() ?? null;
+        return $this->userAgent->platform() ?? null;
     }
 }
 
