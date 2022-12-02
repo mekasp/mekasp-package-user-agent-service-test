@@ -18,7 +18,11 @@ class UserAgentService implements UserAgentInterface
     public function __construct()
     {
         $this->_data = new UserAgentParser();
-        $this->_data = $this->_data->parse();
+    }
+
+    public function parse()
+    {
+        return $this->_data->parse();
     }
 
     public function getBrowser(): ?string
